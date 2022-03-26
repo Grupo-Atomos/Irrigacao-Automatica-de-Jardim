@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 ## Descrição: 
-*Projeto: Atomos-Green 4.0   
+*Projeto: Atomos-Green 4.0  
 *Autor: Átomos  
 *Descrição: Este projeto visa controlar de qualquer lugar do mundo, através de um broker MQTT, 
 Sistemas de irrigação, ofereçendo comodidade, segurança e economia para o seu negócio. 
