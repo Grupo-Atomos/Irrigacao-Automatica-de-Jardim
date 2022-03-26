@@ -6,12 +6,12 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 ## Descrição: 
-        *Projeto: Atomos-Green 4.0   
-        *Autor: Átomos  
-        *Descrição: Este projeto visa controlar de qualquer lugar do mundo, através de um broker MQTT, 
-        Sistemas de irrigação, ofereçendo comodidade, segurança e economia para o seu negócio. 
-        O software possibilitará ligar, desligar e monitorar de forma autonoma os componente do sistem de 
-        irrigação, além de monitorar as grandezas envolvidas 
+*Projeto: Atomos-Green 4.0   
+*Autor: Átomos  
+*Descrição: Este projeto visa controlar de qualquer lugar do mundo, através de um broker MQTT, 
+Sistemas de irrigação, ofereçendo comodidade, segurança e economia para o seu negócio. 
+O software possibilitará ligar, desligar e monitorar de forma autonoma os componente do sistem de 
+irrigação, além de monitorar as grandezas envolvidas 
 
 ![](../header.png)
 
