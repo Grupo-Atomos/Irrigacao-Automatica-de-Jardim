@@ -7,7 +7,7 @@
 
 ## Descrição: 
  *Projeto: Atomos-Green 4.0 
-        *Autor: Átomos
+        *Autor: Átomos  
         *Descrição: Este projeto visa controlar de qualquer lugar do mundo, através de um broker MQTT, 
         Sistemas de irrigação, ofereçendo comodidade, segurança e economia para o seu negócio. 
         O software possibilitará ligar, desligar e monitorar de forma autonoma os componente do sistem de 
