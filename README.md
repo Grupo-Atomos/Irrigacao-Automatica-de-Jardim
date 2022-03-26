@@ -1,5 +1,5 @@
-# Automacao-para-Disjuntor-de-MT (Domótics-MT 4.0)
-> Controle automatizado para disjuntores de média tensão.
+# Automacao para Sistemas de Irrigação MQTT 4.0
+> Controle automatizado para irrigação.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
