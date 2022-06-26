@@ -1,8 +1,19 @@
-<!DOCTYPE html> 
-<html lang="en" style="height:100%;" wp-site wp-site-is-master-page>
+<!DOCTYPE html>
+<!-------------------------------------------------------------
+        *Projeto: Atomos-Green 4.0 
+        *Autor: Átomos
+        *Descrição: Este projeto visa controlar de qualquer lugar do mundo, através de um broker MQTT, 
+        Sistemas de irrigação, ofereçendo comodidade, segurança e economia para o seu negócio. 
+        O software possibilitará ligar, desligar e monitorar de forma autonoma os componente do sistem de 
+        irrigação, além de monitorar as grandezas envolvidas 
+        *Musica para ouvir enquanto você programa: https://www.youtube.com/watch?v=M5QY2_8704o
+       Este Site está hospedado neste link: https://grupo-atomos.github.io/Irrigacao-Automatica-de-Jardim/
+       Os sites do GitHub Pages criados após 15 de junho e que usam domínios do github.io são disponibilizados por HTTPS. O que faz com que o mesmo não consiga interagir com o broker MQTT que está hospedado em http
+------------------------------------------------------------->
+<html lang="pt-br" style="height:100%;" wp-site wp-site-is-master-page>
     <head> 
         <meta charset="utf-8"/> 
-        <title>Domotics-Green 4.0</title>
+        <title>ATOMOS-GREEN 4.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
         <meta name="keywords" content="pinegrow, blocks, bootstrap"/>
         <meta name="description" content="My new website"/>
@@ -38,18 +49,20 @@
                     <!-- Brand and toggle -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                        </button><a href="#"> <img src="images/brand/Logo%20AFPESP.png" class="brand-img img-responsive"/> </a>
+                        </button>
+                        <a href="#"> <img src="images/brand/Logo%20Atomos.png" class="brand-img img-responsive"/> </a>
                     </div>
-                    <!-- Navigation -->
+                    <!-- Navegação -->
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active nav-item"><a href="#">Casa</a>
+                            <li class="active nav-item"><a href="#">Menu</a>
                             </li>
-                            <li class="nav-item"><a href="#">Características</a>
+                            <li class="nav-item"><a href="#">Configuração</a>
                             </li>
-                            <li class="nav-item"><a href="#">Preço</a>
+                            <li class="nav-item"><a href="#">Sobre</a>
                             </li>
-                            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Unidades <i class="fa fa-angle-down"></i></a>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Unidades <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">AFPESP - Amparo</a>
                                     </li>
@@ -97,61 +110,39 @@
                                     </li>
                                 </ul>                                 
                             </li>
-                            <!--//dropdown-->                             
-                            <li class="nav-item"><a href="#">Contato</a>
-                            </li>
                         </ul>
-                        <!--//nav-->
                     </div>
-                    <!--// End Navigation -->
+                    <!--// Fim da Navigação-->
                 </div>
-                <!--// End Container -->
+                <!--// Fim do Container -->
             </nav>
-            <!--// End Navbar -->
+            <!--// Fim da Navbar -->
         </header>
+        <!--// Vamos deletar aqui -->
+        <!--// Vamos deletar aqui -->
         <header id="header-3" class="header-3 soft-scroll">
             <nav>
                 <div class="container">
                     <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
                         <nav class="pull">
                             <ul class="top-nav">
-                                <li><a href="#">Casa <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Recepção<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
-                                <li><a href="#">porra<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Jatoba<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
-                                <li><a href="#">Pages <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Picina<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
-                                <li><a href="#">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Ecumênico<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
-                                <li><a href="#">Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Quadra<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
-                                <li><a href="#">Contact <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-            <!-- /.nav -->
-        </header>
-        <header id="header-3" class="header-3 soft-scroll">
-            <nav>
-                <div class="container">
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                        <nav class="pull">
-                            <ul class="top-nav">
-                                <li><a href="#">Casa <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Características <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Páginas <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Portfólio<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Equipe <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Contato <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+                                <li>
+                                    <a href="#">Campo<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
                                 </li>
                             </ul>
                         </nav>
@@ -166,7 +157,7 @@
                 <section class="hero">
                     <div class="container">
                         <div class="brand">
-                            <div id="payload" class="bg-success bg-turquoise margin-bottom0 margin-top10 pad-bottom10 pad10 text-info white white-hover"></div>                             <a href="#"> </a>
+                            <div id="payload" class="bg-success bg-turquoise margin-bottom0 margin-top5 pad-bottom10 pad5 text-info white white-hover">Status</div><a href="#"></a>
                         </div>
                         <div class="navicon"><a id="nav-toggle" class="nav-slide-btn" href="#"><span></span></a>
                         </div>
@@ -186,33 +177,6 @@
                         </div>
                     </div>
                 </section>
-                <div class="container">
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                        <nav class="pull">
-                            <ul class="top-nav">
-                                <li><a href="#">Recepção <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Restaurante <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Sãlão de Jogos<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Jatobá <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Ecumênico <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Piscina <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Quadra <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Campo <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                                <li><a href="#">Rio <span class="indicator"><i class="fa fa-angle-right"></i></span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!-- /.container-fluid -->
             </nav>
             <!-- /.nav -->
         </header>
@@ -221,23 +185,19 @@
                 <div class="col-md-4 pull-left">
                     <img src="images/brand/pgblocks-logo-white.png" class="brand-img img-responsive"/>
                     <ul class="social social-light">
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-facebook"></i></a>
+                        <li><a href="mailto:grupoatomos@gmail.com"><i class="fa fa-2x fa-envelope-o"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-twitter"></i></a>
+                        <li><a href="https://grupoatomos.com.br/"><i class="fa fa-2x fa-globe"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-google-plus"></i></a>
+                        <li><a href="https://www.facebook.com/grupoatomos"><i class="fa fa-2x fa-facebook"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-pinterest"></i></a>
+                        <li><a href="https://web.whatsapp.com/send?phone=5515996259353&text=%C3%81tomos%20Eletrot%C3%A9cnica"><i class="fa fa-2x fa-whatsapp"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-behance"></i></a>
+                        <li><a href="https://www.youtube.com/channel/UCgO-nCS3-VJLvzBMFy2VJZg"><i class="fa fa-2x fa-youtube-play"></i></a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-2x fa-dribbble"></i></a>
+                        <li><a href="https://www.instagram.com/atomos.eletrotecnica/"><i class="fa fa-2x fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/jurandir-hora-5bb2bb30/"><i class="fa fa-2x fa-linkedin"></i></a>
                         </li>
                     </ul>
                     <!-- /.social -->
@@ -245,9 +205,7 @@
                 <div class="col-md-3 pull-right">
                     <p class="address-bold-line">Nós <i class="fa fa-heart pomegranate"></i> nossos clientes incríveis</p>
                     <p class="address small">
-					Praça Estância Lindóia, S/N – Rio do Peixe, Lindóia,<br/>
-					SP,<br/>
-					S/N</p>
+					R. Benedita Catarina dos Santos – Jardim Regente, 28, Sorocaba - SP<br/>  
                 </div>
                 <div class="col-xs-12 footer-text">
                     <p>Por favor, dedique alguns minutos para ler nosso <a href="#">termos & Condições</a> e <a href="#">Política de Privacidade</a></p>
